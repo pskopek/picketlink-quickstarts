@@ -1,8 +1,8 @@
 <PicketLink xmlns="urn:picketlink:identity-federation:config:2.1">
 	<PicketLinkSP xmlns="urn:picketlink:identity-federation:config:2.1"
 		ServerEnvironment="tomcat" BindingType="REDIRECT" RelayState="someURL">
-		<IdentityURL>${idp.url::http://localhost:8080/idp/}</IdentityURL>
-		<ServiceURL>${employee.url::http://localhost:8080/employee/}
+		<IdentityURL>${idp.url::http://lb.example.com/idp/}</IdentityURL>
+		<ServiceURL>${employee.url::http://nic1.example.com:8080/employee/}
 		</ServiceURL>
 	</PicketLinkSP>
 	<Handlers xmlns="urn:picketlink:identity-federation:handler:config:2.1">

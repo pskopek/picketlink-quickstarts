@@ -6,7 +6,9 @@
 	<display-name>Fedbridge Test SALES Application</display-name>
 	<description>
     Just a Test SP for Fedbridge Project
-  </description>
+    </description>
+	
+	<distributable/>
 
 	<!-- Define a Security Constraint on this Application -->
 	<security-constraint>

@@ -9,6 +9,8 @@
     IDP Web Application for the PicketLink project
   </description>
 
+	<distributable/>
+
 	<listener>
 		<listener-class>org.picketlink.identity.federation.web.listeners.IDPHttpSessionListener</listener-class>
 	</listener>
